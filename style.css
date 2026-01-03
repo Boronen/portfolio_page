@@ -46,6 +46,26 @@ img {
     letter-spacing: 0.05em;
 }
 
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.boronen-logo {
+    height: 40px;
+    width: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+
 .main-nav a {
     margin: 0 0.75rem;
     font-weight: 500;
